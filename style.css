@@ -1,0 +1,96 @@
+.robo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+.head{
+    margin: 0 auto;
+    height: 100px;
+    width: 200px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    background: green;
+    display: flex;
+    margin-bottom: 6px;
+    transition: .2s;
+}
+.head:hover{
+    transform: scale(1.05);
+}
+.l-eye,.r-eye{
+    position: relative;
+    top: 45px;
+    height: 20px;
+    width: 15px;
+    border-radius: 15px;
+    background-color: white;
+}
+.l-eye{
+    left: 55px;
+}
+.r-eye{
+    left: 110px;
+}
+
+.upper-body{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+.torso{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+.l-hand,.r-hand{
+    height: 150px;
+    width: 40px;
+    background-color: green;
+    border-radius: 50px;
+    transition: .3s;
+
+}
+.l-hand{
+    margin-right: 6px;
+}
+.l-hand:hover{
+    transform: rotate(30deg);
+}
+.r-hand{
+    margin-left: 6px;
+}
+.r-hand:hover{
+    transform: rotate(-30deg);
+}
+.lower-body{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.l-leg,.r-leg{
+    height: 100px;
+    width: 45px;
+    background-color: green;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: .3s;
+}
+.l-leg{
+    position: relative;
+    left: -25px;
+}
+.l-leg:hover{
+    transform: rotate(15deg);
+}
+.r-leg{
+    position: relative;
+    right: -25px;
+}
+.r-leg:hover{
+    transform: rotate(-15deg);
+}
